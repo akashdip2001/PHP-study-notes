@@ -980,6 +980,10 @@ if(isset($_POST['name'])){
 
 ##### b. Integrate HTML with PHP
 
+<img src="img/DataBase connection & Sucess msg (1).png">
+<img src="img/DataBase connection & Sucess msg (2).png">
+<img src="img/DataBase connection & Sucess msg (3).png">
+
 Copy the content from `index.html` and paste it into `index.php` after the PHP code to integrate front-end with back-end.
 
 **Final `index.php` File:**
@@ -1062,6 +1066,7 @@ if(isset($_POST['name'])){
 </body>
 </html>
 ```
+<img src="img/DataBase connection & Sucess msg (4).png">
 
 **Key Points:**
 - The PHP code at the top handles form submission and data insertion.
