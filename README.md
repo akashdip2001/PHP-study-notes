@@ -906,6 +906,12 @@ VALUES ('John Doe', 25, 'Male', 'john@example.com', '1234567890', 'Looking forwa
 
 Create the `index.php` file to handle form submissions and interact with the database.
 
+<img src="img/php_Query (1).png">
+<img src="img/php_Query (2).png">
+<img src="img/php_Query (3).png">
+<img src="img/php_Query (4).png">
+<img src="img/php_Query (5).png">
+
 ```php
 <?php
 $insert = false;
