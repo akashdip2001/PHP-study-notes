@@ -684,6 +684,8 @@ Designing a PHP website involves both front-end and back-end development. This s
 
 #### 2. Design Front-End
 
+<img src="img/php_from (1).png">
+
 ##### a. `index.html`
 
 Create the `index.html` file with the following structure:
@@ -853,10 +855,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 2. **Access phpMyAdmin:**
    - In your browser, navigate to `http://localhost/phpmyadmin/`.
+  
+<img src="img/php_from (2).png">
 
 3. **Create Database:**
    - Click on **"New"** in the left sidebar.
    - Enter `trip` as the database name and click **"Create"**.
+
+<img src="img/php_from (3).png">
 
 4. **Create Table:**
    - Within the `trip` database, create a table named `trip` with the following columns:
@@ -872,10 +878,18 @@ document.addEventListener('DOMContentLoaded', () => {
 | `other`     | TEXT              |                       |
 | `dt`        | TIMESTAMP         | Default CURRENT_TIMESTAMP |
 
+<img src="img/php_from (4).png">
+<img src="img/php_from (5).png">
+<img src="img/php_from (6).png">
+
 **Explanation:**
 - **`sno`:** Serial number, auto-incremented for each entry.
 - **`dt`:** Timestamp of form submission.
 - **Other Columns:** Store user-submitted data.
+
+<img src="img/php_from (7).png">
+<img src="img/php_from (8).png">
+<img src="img/php_from (9).png">
 
 5. **Insert Sample Data:**
    - Use the **"Insert"** tab in phpMyAdmin to add sample data or use SQL queries.
